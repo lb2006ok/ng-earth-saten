@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import construct = Reflect.construct;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-earth-saten';
+  constructor(){
+
+  }
+  increment() {
+
+  }
+
+  decrement() {
+
+  }
+
+  reset() {
+
+  }
 }
